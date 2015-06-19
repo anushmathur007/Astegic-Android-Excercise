@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/Dp_5"
+        android:src="@drawable/ic_launcher"
+        />
+
+
+    <ImageButton
+        android:id="@+id/btnSearchFeeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/Dp_5"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_action_search"/>
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/Dp_5"
+        android:layout_toLeftOf="@+id/btnSearchFeeds"
+        android:layout_toStartOf="@+id/btnSearchFeeds"/>
+
+
+</RelativeLayout>

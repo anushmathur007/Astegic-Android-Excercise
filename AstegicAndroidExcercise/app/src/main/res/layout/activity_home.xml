@@ -1,0 +1,24 @@
+<RelativeLayout
+    android:id="@+id/rootcontainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gridFlickrFeeds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:horizontalSpacing="@dimen/Dp_5"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/Dp_5"></GridView>
+    </RelativeLayout>
+
+</RelativeLayout>
